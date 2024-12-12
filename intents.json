@@ -1,0 +1,2317 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Welcome to Sampurnakart how can I help You :)",
+        "Hello, thanks for visiting Sampurnakart",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help"
+      ]
+    },
+    {
+      "tag": "signup,account,create",
+      "patterns": [
+        "how can i create a new account",
+        "how can i signup in sampurnakart",
+        "i want to make a new account",
+        "i want to create an account"
+      ],
+      "responses": [
+        "For Creating a New account on our WebSite you have to follow some steps :-\nStep:1 Go to Sampurnakart main page then click on login button.\nStep:2 Go to the bottom side were it is written \"create a new account\"\nStep:3 Fill your personal details (Referral code is optional) then click on Create Account Button\nCongratulation you have created you Account on Sampurnakart \nor you can click on the link here to open the page\n <a href='https://sampurnakart.in/signup' >Click Here</a>"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "repair",
+      "patterns": [
+        "what mobile brands do you repair at sampurnakart"
+      ],
+      "responses": [
+        "Sampurnakart offers repair services for all major mobile phone brands, including Samsung, Apple (iPhone), Oppo, Vivo, Xiaomi, Realme, OnePlus, and many others."
+      ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [
+      "can i repair my mobile phone online or do i need to visit the shop"
+      ],
+      "responses": [
+        "yes we offer services for all mobile phone brands, no matter the make or model, whether its a flagship device or a budget phone, we've got you coveredYes, you can book a mobile repair service online through our website or app. We offer both doorstep repair services and pickup/drop-off options, so you don’t need to visit the shop." 
+      ]
+    },
+    {
+      "tag": "doorstep",
+      "patterns": [
+      "can you repair my phone at my doorstep"
+      ],
+      "responses": [
+        "yes we offer doorstep repair services fir a wide range of mobile phone and laptop issues.A certified technician will vist your location to repair your device on-site"
+      ]
+    },
+    {
+      "tag": "range,",
+      "patterns": [
+      "what is the price range for mobile phone repair",
+      "phone cost repair",
+      "price range for mobile phone repair"
+      ],
+      "responses": [
+        "The cost of mobile repairs varies based on the type of issue and the phone model. Prices generally range from ₹500 for minor repairs to ₹5,000 or more for complex issues like motherboard repairs. You can get a detailed quote before booking."
+      ]
+    },
+    {
+      "tag": "service",
+      "patterns": [
+      "do you offer repair services for all mobile phone brands"
+      ],
+      "responses": [
+        "yes we offer services for all mobile phone brands, no matter the make or model, whether its a flagship device or a budget phone, we've got you covered" 
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+      "is there a warranty on mobile phon repair"
+                
+      ],
+      "responses": [
+        "yes we offer a warranty on all mobile phone repairs. The warranty period depends on the type of repair, but typically it lasts for 3 to 6 months" 
+      ]
+    },
+    {
+      "tag": "cancel, reschedule",
+      "patterns": [
+      "how do i cancel or reschedule a mobile reapir booking"
+                
+      ],
+      "responses": [
+        "you can cancel or reschedule your mobile repair by logging into your account on the sampurnakart app or webite.Simply go to the \"My bookings\" section and select the option to cancel or modify your booking" 
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+      "what is the price range for mobile phone repairs"
+                
+      ],
+      "responses": [
+        "The cost of mobile repairs varies based on the type of issue and the phone model. Prices generally range from ₹500 for minor repairs to ₹5,000 or more for complex issues like motherboard repairs. You can get a detailed quote before booking." 
+      ]
+    },
+    {
+      "tag": "offer",
+      "patterns": [
+      "do you offer any discount or special deals on mobile repair"
+                
+      ],
+      "responses": [
+        "yes we frequently offer discount and special deals on mobile repair. Keep an eye on our website or app for ongoing offers and seasonal promotions"
+      ]
+    },
+    {
+      "tag": "pickup, drop",
+      "patterns": [
+      "do you offer pickup and drop service for mobile repairs"
+                
+      ],
+      "responses": [
+        "yes sampurnakart offer a convenient pickup and drop service for mobile repair.We will collect your phone from your location, repair it and return it to you."
+      ]
+    },
+    {
+      "tag":"track",
+      "patterns": [
+        "how can i track the progress of my mobile repair"
+                
+      ],
+      "responses": "you can track the status of your mobile repair through the sampurnakart app or website. We provide real-time updates, so you'll know when your repair is completed and on its way back to you"
+    },
+    {
+      "tag": "time",
+      "patterns": [
+      "how much time does the mobile repair takes"
+                
+      ],
+      "responses": [
+        "The time taken for mobile phone repair is typically between a few hours to 2-3 days depending on the complexity of the issue and parts availablilit," 
+      ]
+    },
+    {
+      "tag": "book",
+      "patterns": [
+        "i want to book a repair"
+      ],
+      "responses": [
+        "What kind of repair you want to book \n Here are some of the link that I can Suggest you \n <a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Smartphone Brands</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Laptop Brands</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Tablet Brands</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Smart Watches</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Heaphones Brand</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Speakers</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>LED TV</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>CC TV Services</a>\n<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Car Services</a>"
+      ]
+    },
+    
+    {
+      "tag": "about",
+      "patterns": [
+        "About Sampurnakart",
+        "What is Sampurnakart about?"
+      ],
+      "responses": [
+        "At Sampurnakart Innovation Pvt. Ltd., we're not just a repair service we're a team of tech enthusiasts dedicated to providing seamless solutions for all your gadget woes. With a mission to revolutionize the repair industry, we're committed to delivering excellence, affordability, and convenience to every customer.",
+        "When you choose Sampurnakart, you're choosing quality you can rely on. We promise to treat your device with the utmost care and attention it deserves, using state-of-the-art tools and genuine parts to ensure optimal performance. Your satisfaction is our priority, and we won't rest until your device is back in your hands, functioning flawlessly."
+      ]
+    },
+    {
+      "tag": "promise",
+      "patterns": [
+        "promise in sampurnakart"
+      ],
+      "responses": [
+        "When you choose Sampurnakart, you're choosing quality you can rely on. We promise to treat your device with the utmost care and attention it deserves, using state-of-the-art tools and genuine parts to ensure optimal performance. Your satisfaction is our priority, and we won't rest until your device is back in your hands, functioning flawlessly."
+      ]
+    },
+    {
+      "tag": "privacy policy",
+      "patterns": [
+        "what are the privacy policy in sampurnakart"
+      ],
+      "responses": [
+        "How We Collect or Get Your Data\nWhen you use our Platform, we collect and store your information which is provided by you from time to time. In general, you can browse the Platform without telling us who you are or revealing any personal information about yourself. Once you give us your personal information, you are not anonymous to us. Where possible, we indicate which fields are required and which fields are optional. You always have the option to not provide information by choosing not to use a particular service, product, or feature on the Platform.\n\nVisit our website (www.SAMPURNAKART.in) and/or any other SAMPURNAKART website(s) which reference or link to this Statement (collectively, “Website”).\nUse, download, access, as applicable, any of our various internet-based offerings, including mobile platforms, software, or applications (collectively, “Services”).\nVisit SAMPURNAKART's branded social media sites.\nReceive communications from us, including emails, phone calls, or other electronic messages; or Data we collect.\nWe collect some information directly from you (for example, via forms you complete or products or Services you access, download, or otherwise obtain). Such information is generally limited to:\nName, Contact details, Email ID, IMEI, Device Details\nYour communications with SAMPURNAKART personnel.\nContent you post on our social media sites.\nInformation you provide on the Website, such as online questionnaires, or feedback forms.\nInformation you provide when you subscribe to SMS services.\nInformation you provide when you create your account, log-in credentials, and information about your use of and preferences for the Services.\nOther information is received indirectly from you via use of the Services (for example, from observing your actions on the Website or to provision you with account access)."
+      ]
+    },
+    {
+      "tag": "terms and conditions",
+      "patterns": [
+        "what are the terms and conditions of sampurnakart",
+        "terms and conditions of sampurnakart"
+      ],
+      "responses": [
+        "By accepting this you agree with OUR terms and conditions as follows:\nEstimated Repair Costs: The repair price shown in the app and website is estimated and may change based on the actual diagnosis.\nPrice Fluctuations: Repair prices may change over time according to market conditions.\nPayment Terms: An estimated tentative cost is derived based on initial customer input. The actual cost of the repair will be informed to the customer through phone or email after detailed diagnosis. 100% payment should be made before SAMPURNAKART starts the repair.\nAdditional Repairs: If additional essential repairs are identified during the repair process, a fresh estimation will be sent. Customer approval with 100% advance payment of the balance is essential to complete the repair. If the customer requests the equipment to be returned without repair, the same will be accepted only if the SAMPURNAKART diagnosis charges are paid. If any spare parts have already been procured from the vendor for repair, payment made earlier towards the repair will not be refunded to the customer. Repair diagnosis charges vary for each product based on complexity.\nRepair Turnaround Time: All efforts will be made to ensure that the product is repaired within 3 working days from the date of acceptance of repair. However, if the repair is complex or if there is any constraint on spare parts availability, the repair turnaround time may take longer. SAMPURNAKART will not be responsible for any loss due to this delay. If the spare parts are not available with the vendor, the product will be returned to the customer without any repair. In such a case, diagnosis charges are still applicable for chargeable repair.\nDamage Liability: While every effort will be made to ensure proper care of your product, SAMPURNAKART will not be held responsible for any kind of losses occurring due to unforeseen circumstances described as \"Act of God\". Accessories are accepted under the owner's risk.\nCollection of Repaired Products: All repaired products should be collected within 2 weeks from the date of intimation through email or SMS. In case of delay, Rs 100 will be charged for every extra day. If the product is not collected by the customer within 45 days from the last date of the penalty period of 2 weeks, the product will be considered as junk and will be disposed of by SAMPURNAKART. SAMPURNAKART will not be responsible for returning the product.\nData Backup: Upon confirmation of acceptance of repair, we expect the customer to have a backup of all data. SAMPURNAKART will not be held responsible for any kind of data loss.\nReplacement Parts: In case of replacement for screens or body parts, only the screen of the device will be replaced. Screen guards, sleeves, stickers, or any cosmetic modifications to the original device will not be replaced.\nOperating System Installation: SAMPURNAKART may install the operating system as part of hardware/software service, which will prevent the device from reverting to an earlier version of the operating system. Third-party applications installed on such devices may not be compatible with the updated operating system. Customers are responsible for reinstalling all other software programs, data, and passwords post-repair.\nService Provider Status: We are not a Brand Authorized Service Provider. SAMPURNAKART is an Independent Service Provider. All phone repairs we perform carry a 1-month warranty. We use high-quality OEM spare parts, meaning original equipment manufacturer parts. None of our spare parts come directly from Apple or other brands. Warranty does not cover physical, accidental, or liquid damage.\nComplete Information: Customers must provide complete information about the problem at the time of submitting the device for repair. SAMPURNAKART will not repair issues that were not reported.\nPre-existing Conditions: SAMPURNAKART is not responsible for pre-existing conditions, damage, issues, or any kind of problems in the device.\nQuality Checks: We accept your device for repair after a quality check and perform a quality check before handing it over to the customers.\nPost-Repair Damage: We are not responsible for any physical damage that occurs to the device after handing it over to the customer.\nRisk Communication: All risks and challenges related to the repair are communicated with the customer before device repair.\nComplex Repairs: In case of any complex repair, the company shall not take any risk over the device repair. The job shall be done only when permitted by the client's (customer's) end. In case of failure, the company shall not be responsible.\nLiability: SAMPURNAKART shall not be liable for any kind of claims, risks, and blames as all the repair work is done by customer’s consent. We only start repair work if the customer agrees with all the terms and conditions and is aware of all kinds of risks that may occur during the repair."
+      ]
+    },
+    {
+      "tag": "shipping policy",
+      "patterns": [
+        "what are the shipping policy in sampurnakart"
+      ],
+      "responses": [
+        "Introduction\nAt Sampurnakart Innovations Private Limited, we are committed to delivering your repaired devices promptly and securely. This Shipping Policy outlines our procedures for handling, shipping, and delivering your devices to ensure a seamless experience.\n\nShipping Information\nWe provide shipping services for the pickup and delivery of your devices. Below are the details of our shipping processes:\n\nPickup Timing: We pick up devices from customers between 9:00 AM and 11:59 AM.\nDelivery Timing: After repair, devices are delivered back to customers within 3 hours to 3 working days, depending on the nature of the repair.\nShipping Partners: We partner with reliable shipping providers like Delhivery to ensure safe and timely delivery.\n\nShipping Costs\nWe strive to keep our shipping costs transparent and affordable. Here's how shipping costs are determined:\nStandard Shipping: Complimentary for all repair services.\nExpress Shipping: Available at an additional cost for faster delivery within 24 hours.\nInternational Shipping: Shipping costs for international deliveries are calculated based on the destination and the size of the device.\n\nTracking Your Shipment\nOnce your device has been shipped, you will receive a tracking number via email. You can use this number to monitor the status of your shipment in real-time through our shipping partner's website.\nIf you do not receive a tracking number within 24 hours of your device being shipped, please contact our Customer Service team for assistance.\n\nShipping Restrictions\nPlease be aware of the following restrictions related to shipping:\nProhibited Items: We cannot ship hazardous materials, including flammable liquids, batteries, and other restricted items.\nCustoms Regulations: International shipments are subject to customs regulations and may incur additional fees or delays.\nPackaging: Devices must be properly packaged to prevent damage during transit. We handle the packaging process to ensure your device is secure.\n\nLost or Damaged Shipments\nWhile we strive to ensure that all shipments arrive safely and on time, issues can occasionally occur. In the event of a lost or damaged shipment:\nReport Immediately: Contact our Customer Service team within 48 hours of the expected delivery date.\nProvide Details: Submit your tracking number and a description of the issue.\nResolution: We will work with our shipping partners to locate your shipment or arrange for a replacement if necessary.\n\nReturns and Exchanges\nIf you need to return or exchange a device, please follow our return procedures:\n\nContact Us: Reach out to our Customer Service team to initiate the return or exchange process.\nProvide Information: Submit your order number, device details, and reason for the return or exchange.\nApproval: Once your request is approved, you will receive instructions on how to ship the device back to us.\nShipping: Follow the provided instructions to return the device. Ensure it is properly packaged to prevent damage.\nProcessing: Upon receipt, we will inspect the device and process the return or exchange accordingly.\nPlease note that return shipping costs may apply unless the return is due to our error or a defective product.\n"
+      ]
+    },
+    {
+      "tag": "assistance,help,customercare",
+      "patterns": [
+        "i need assistance",
+        "Need to contact your Customercare",
+        "Need more help",
+        "i need to talk to your Customercare"
+      ],
+      "responses": [
+        "If you have any questions or need further assistance regarding our Shipping Policy, please contact our Customer Service team. <a href='https://sampurnakart.in/pages/contact' style='color: black; font-weight: bold;'>Contact-Us</a>\n<a href='https://wa.me/message/EXMY2UFD65NQJ1' style='color: black; font-weight: bold;'>Connect through our WhatsApp Services</a>"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "I need the location",
+        "where is sampurnakart located"
+      ],
+      "responses": [
+        "If you have any questions or need further assistance regarding our Shipping Policy, please contact our Customer Service team.<a href='https://www.google.com/maps/dir/31.3032704,75.5826688/sampurnakart+location/@31.3052241,75.578069,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x391a5b511e936123:0x406eb5c7241e6c85!2m2!1d75.5787817!2d31.3071737?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D' style='color: black; font-weight: bold;'>Our Location</a>"
+      ]
+    },
+    {
+      "tag": "smartphone",
+      "patterns": [
+        "I need spare parts my smartphone ",
+        "need for parts for android phone",
+        "repairing Cost of andriod phone",
+        "repairing Cost of apple phone",
+        "book a repair for phone"
+      ],
+      "responses": [
+        "Please select your Smartphone Device.<a href='https://sampurnakart.in/repair/65c3196b0f4ad1db82b00eca' style='color: black; font-weight: bold;'>CLICK HERE</a>"
+      ]
+    },
+    {
+      "tag": "iphone",
+      "patterns": [
+        "I need spare parts of iphone",
+        "need iphone parts",
+        "repairing Cost of iphone"
+      ],
+      "responses": [
+        "Please click the link for your Iphone Model.<a href='https://sampurnakart.in/repair/models/65c319c20f4ad1db82b00ed2' style='color: black; hover:black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "iphone 5s",
+      "patterns": [
+        "I need spare parts of iphone 5s",
+        "need for parts for my iphone 5s",
+        "repairing Cost of iphone 5s"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35dff0f4ad1db82b01176' style='color: black; font-weight: bold;'>Iphone 5s</a>"
+      ]
+    },
+    {
+      "tag": "iphone 6",
+      "patterns": [
+        "I need spare parts of iphone 6",
+        "need for parts for my iphone 6",
+        "repairing Cost of iphone 6"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e140f4ad1db82b01182' style='color: black; font-weight: bold;'>Iphone 6</a>"
+      ]
+    },
+    {
+      "tag": "iphone 6 plus",
+      "patterns": [
+        "I need spare parts of iphone 6 plus",
+        "need for parts for my iphone 6 plus",
+        "repairing Cost of iphone 6 plus"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e2d0f4ad1db82b0118e' style='color: black; font-weight: bold;'>Iphone 6 plus</a>"
+      ]
+    },
+    {
+      "tag": "iphone 6s",
+      "patterns": [
+        "I need spare parts of iphone 6s",
+        "need for parts for my iphone 6s",
+        "repairing Cost of iphone 6s"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e450f4ad1db82b0119a' style='color: black; font-weight: bold;'>Iphone 6s</a>"
+      ]
+    },
+    {
+      "tag": "iphone 7",
+      "patterns": [
+        "I need spare parts of iphone 7",
+        "need for parts for my iphone 7",
+        "repairing Cost of iphone 7"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e6f0f4ad1db82b011b2' style='color: black; font-weight: bold;'>Iphone 7</a>"
+      ]
+    },
+    {
+      "tag": "iphone 7 plus",
+      "patterns": [
+        "I need spare parts of iphone 7 plus",
+        "need for parts for my iphone 7 plus",
+        "repairing Cost of iphone 7 plus"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e5b0f4ad1db82b011a6' style='color: black; font-weight: bold;'>Iphone 7 plus</a>"
+      ]
+    },
+    {
+      "tag": "iphone 8",
+      "patterns": [
+        "I need spare parts of iphone 8",
+        "need for parts for my iphone 8",
+        "repairing Cost of iphone 8"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35e950f4ad1db82b011ca' style='color: black; font-weight: bold;'>Iphone 8</a>"
+      ]
+    },
+    {
+      "tag": "iphone 8 plus",
+      "patterns": [
+        "I need spare parts of iphone 8 plus",
+        "need for parts for my iphone 8 plus",
+        "repairing Cost of iphone 8 plus"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35ea80f4ad1db82b011d6' style='color: black; font-weight: bold;'>Iphone 8 plus</a>"
+      ]
+    },
+    {
+      "tag": "iphone se",
+      "patterns": [
+        "I need spare parts of iphone SE",
+        "need for parts for my iphone SE",
+        "repairing Cost of iphone SE"
+      ],
+      "responses": [
+        "Select your Iphone SE Model<a href='https://sampurnakart.in/repair/issues/65c35ed20f4ad1db82b011e2' style='color: black; font-weight: bold;'>Iphone SE</a>\n<a href='https://sampurnakart.in/repair/issues/65c35ed20f4ad1db82b011e2' style='color: black; font-weight: bold;'>Iphone SE 2020</a>"
+      ]
+    },
+    {
+      "tag": "iphone x",
+      "patterns": [
+        "I need spare parts of iphone x",
+        "need for parts for my iphone x",
+        "repairing Cost of iphone x"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35f050f4ad1db82b011fa' style='color: black; font-weight: bold;'>Iphone x</a>"
+      ]
+    },
+    {
+      "tag": "iphone xs",
+      "patterns": [
+        "I need spare parts of iphone xs",
+        "need for parts for my iphone xs",
+        "repairing Cost of iphone xs"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35f220f4ad1db82b01206' style='color: black; font-weight: bold;'>Iphone xs</a>"
+      ]
+    },
+    {
+      "tag": "iphone xr",
+      "patterns": [
+        "I need spare parts of iphone xr",
+        "need for parts for my iphone xr",
+        "repairing Cost of iphone xr"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35f370f4ad1db82b01212' style='color: black; font-weight: bold;'>Iphone xr</a>"
+      ]
+    },
+    {
+      "tag": "iphone xs max",
+      "patterns": [
+        "I need spare parts of iphone xs max",
+        "need for parts for my iphone xs max",
+        "repairing Cost of iphone xs max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35f4d0f4ad1db82b0121e' style='color: black; font-weight: bold;'>Iphone xs max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 11",
+      "patterns": [
+        "I need spare parts of iphone 11",
+        "need for parts for my iphone 11",
+        "repairing Cost of iphone 11"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35f610f4ad1db82b0122a' style='color: black; font-weight: bold;'>Iphone 11</a>"
+      ]
+    },
+    {
+      "tag": "iphone 11 pro",
+      "patterns": [
+        "I need spare parts of iphone 11 pro",
+        "need for parts for my iphone 11 pro",
+        "repairing Cost of iphone 11 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35fc40f4ad1db82b01249' style='color: black; font-weight: bold;'>Iphone 11 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 11 pro max",
+      "patterns": [
+        "I need spare parts of iphone 11 pro max",
+        "need for parts for my iphone 11 pro max",
+        "repairing Cost of iphone 11 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c35fe20f4ad1db82b01255' style='color: black; font-weight: bold;'>Iphone 11 pro max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 12 mini",
+      "patterns": [
+        "I need spare parts of iphone 12 mini",
+        "need for parts for my iphone 12 mini",
+        "repairing Cost of iphone 12 mini"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360050f4ad1db82b01261' style='color: black; font-weight: bold;'>Iphone 12 mini</a>"
+      ]
+    },
+    {
+      "tag": "iphone 12",
+      "patterns": [
+        "I need spare parts of iphone 12",
+        "need for parts for my iphone 12",
+        "repairing Cost of iphone 12"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360170f4ad1db82b0126d' style='color: black; font-weight: bold;'>Iphone 12</a>"
+      ]
+    },
+    {
+      "tag": "iphone 12 pro",
+      "patterns": [
+        "I need spare parts of iphone 12 pro",
+        "need for parts for my iphone 12 pro",
+        "repairing Cost of iphone 12 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360310f4ad1db82b01279' style='color: black; font-weight: bold;'>Iphone 12 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 12 pro max",
+      "patterns": [
+        "I need spare parts of iphone 12 pro max",
+        "need for parts for my iphone 12 pro max",
+        "repairing Cost of iphone 12 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360440f4ad1db82b01285' style='color: black; font-weight: bold;'>Iphone 12 pro max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 13 mini",
+      "patterns": [
+        "I need spare parts of iphone 13 mini",
+        "need for parts for my iphone 13 mini",
+        "repairing Cost of iphone 13 mini"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360650f4ad1db82b01291' style='color: black; font-weight: bold;'>Iphone 13 mini</a>"
+      ]
+    },
+    {
+      "tag": "iphone 13",
+      "patterns": [
+        "I need spare parts of iphone 13",
+        "need for parts for my iphone 13",
+        "repairing Cost of iphone 13"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360850f4ad1db82b0129d' style='color: black; font-weight: bold;'>Iphone 13</a>"
+      ]
+    },
+    {
+      "tag": "iphone 13 pro",
+      "patterns": [
+        "I need spare parts of iphone 13 pro",
+        "need for parts for my iphone 13 pro",
+        "repairing Cost of iphone 13 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360990f4ad1db82b012a9' style='color: black; font-weight: bold;'>Iphone 13 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 13 pro max",
+      "patterns": [
+        "I need spare parts of iphone 13 pro max",
+        "need for parts for my iphone 13 pro max",
+        "repairing Cost of iphone 13 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360b60f4ad1db82b012b5' style='color: black; font-weight: bold;'>Iphone 13 pro max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 14",
+      "patterns": [
+        "I need spare parts of iphone 14",
+        "need for parts for my iphone 14",
+        "repairing Cost of iphone 14"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360c90f4ad1db82b012c1' style='color: black; font-weight: bold;'>Iphone 14</a>"
+      ]
+    },
+    {
+      "tag": "iphone 14 pro",
+      "patterns": [
+        "I need spare parts of iphone 14 pro",
+        "need for parts for my iphone 14 pro",
+        "repairing Cost of iphone 14 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c360f50f4ad1db82b012d9' style='color: black; font-weight: bold;'>Iphone 14 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 14 pro max",
+      "patterns": [
+        "I need spare parts of iphone 14 pro max",
+        "need for parts for my iphone 14 pro max",
+        "repairing Cost of iphone 14 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c361170f4ad1db82b012e5' style='color: black; font-weight: bold;'>Iphone 14 pro max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 15",
+      "patterns": [
+        "I need spare parts of iphone 15",
+        "need for parts for my iphone 15",
+        "repairing Cost of iphone 15"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c361510f4ad1db82b012f1' style='color: black; font-weight: bold;'>Iphone 15</a>"
+      ]
+    },
+    {
+      "tag": "iphone 15 plus",
+      "patterns": [
+        "I need spare parts of iphone 15 plus",
+        "need for parts for my iphone 15 plus",
+        "repairing Cost of iphone 15 plus"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c361650f4ad1db82b012fd' style='color: black; font-weight: bold;'>Iphone 15 plus</a>"
+      ]
+    },
+    {
+      "tag": "iphone 15 pro",
+      "patterns": [
+        "I need spare parts of iphone 15 pro",
+        "need for parts for my iphone 15 pro",
+        "repairing Cost of iphone 15 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c3617a0f4ad1db82b01309' style='color: black; font-weight: bold;'>Iphone 15 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 15 pro max",
+      "patterns": [
+        "I need spare parts of iphone 15 pro max",
+        "need for parts for my iphone 15 pro max",
+        "repairing Cost of iphone 15 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c361a60f4ad1db82b01315' style='color: black; font-weight: bold;'>Iphone 15 pro max</a>"
+      ]
+    },
+    {
+      "tag": "iphone 16",
+      "patterns": [
+        "I need spare parts of iphone 16",
+        "need for parts for my iphone 16",
+        "repairing Cost of iphone 16",
+        "front camera for my iphone 16",
+        "back camera for my iphone 16",
+        "screen replacement for my iphone 16"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f2ce14f2164b3c65da5d9b' style='color: black; font-weight: bold;'>Iphone 16</a>"
+      ]
+    },
+    {
+      "tag": "iphone 16 plus",
+      "patterns": [
+        "I need spare parts of iphone 16 plus",
+        "need for parts for my iphone 16 plus",
+        "repairing Cost of iphone 16 plus"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f3aad3f2164b3c65da6694' style='color: black; font-weight: bold;'>Iphone 16 plus</a>"
+      ]
+    },
+    {
+      "tag": "iphone 16 pro",
+      "patterns": [
+        "I need spare parts of iphone 16 pro",
+        "need for parts for my iphone 16 pro",
+        "repairing Cost of iphone 16 pro"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f3ac6df2164b3c65da66e7' style='color: black; font-weight: bold;'>Iphone 16 pro</a>"
+      ]
+    },
+    {
+      "tag": "iphone 16 pro max",
+      "patterns": [
+        "I need spare parts of iphone 16 pro max",
+        "need for parts for my iphone 16 pro max",
+        "repairing Cost of iphone 16 pro max"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f3ad29f2164b3c65da66f3' style='color: black; font-weight: bold;'>Iphone 16 pro max</a>"
+      ]
+    },
+    {
+      "tag": "nothing",
+      "patterns": [
+        "I need to repaire nothing smartphone",
+        "need for parts for nothing mobile",
+        "repairing Cost of nothing smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65f4172424e42d3794d94f21' style='color: black; font-weight: bold;'>Nothing</a>"
+      ]
+    },
+    {
+      "tag": "nokia",
+      "patterns": [
+        "I need to repaire nokia smartphone",
+        "need for parts for nokia mobile",
+        "repairing Cost of nokia smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c5bfdd372328de86ce1c0d' style='color: black; font-weight: bold;'>Nokia</a>"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "I need to repaire google smartphone",
+        "need for parts for google mobile",
+        "repairing Cost of google smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c5bff9372328de86ce1c11' style='color: black; font-weight: bold;'>Google</a>"
+      ]
+    },
+    {
+      "tag": "huawei",
+      "patterns": [
+        "I need to repaire huawei smartphone",
+        "need for parts for huawei mobile",
+        "repairing Cost of huawei smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e976472c80e64a6a6a0486' style='color: black; font-weight: bold;'>huawei</a>"
+      ]
+    },
+    {
+      "tag": "samsung",
+      "patterns": [
+        "I need to repaire samsung smartphone",
+        "need for parts for samsung mobile",
+        "repairing Cost of samsung smartphone"
+      ],
+      "responses": [
+        "Please click on the link given.<a href='https://sampurnakart.in/repair/models/65c319d90f4ad1db82b00ed7' style='color: black; font-weight: bold;'>Select your Samsung Device</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a2 core, a2 core",
+      "patterns": [
+        "I need to repaire galaxy a2 core smartphone",
+        "need for parts for galaxy a2 core mobile",
+        "repairing Cost of galaxy a2 core smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65c9ffee333cac8f921d8fc0' style='color: black; font-weight: bold;'>Galaxy A2 Core</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a01, a01",
+      "patterns": [
+        "I need to repaire galaxy a01 smartphone",
+        "need for parts for galaxy a01 mobile",
+        "repairing Cost of galaxy a01 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65ca000f333cac8f921d8fd4' style='color: black; font-weight: bold;'>Galaxy A01</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a10, a10",
+      "patterns": [
+        "I need to repaire galaxy a10 smartphone",
+        "need for parts for galaxy a10 mobile",
+        "repairing Cost of galaxy a10 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65ca0314333cac8f921d91f4' style='color: black; font-weight: bold;'>Galaxy A10</a>"
+      ]
+    },
+    
+    {
+      "tag": "galaxy a20, a20",
+      "patterns": [
+        "I need to repaire galaxy a20 smartphone",
+        "need for parts for galaxy a20 mobile",
+        "repairing Cost of galaxy a20 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb0adf333cac8f921da6a1' style='color: black; font-weight: bold;'>Galaxy A20</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a20s, a20s",
+      "patterns": [
+        "I need to repaire galaxy a20s smartphone",
+        "need for parts for galaxy a20s mobile",
+        "repairing Cost of galaxy a20s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb0af6333cac8f921da6af' style='color: black; font-weight: bold;'>Galaxy A20S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a30, a30",
+      "patterns": [
+        "I need to repaire galaxy a30 smartphone",
+        "need for parts for galaxy a30 mobile",
+        "repairing Cost of galaxy a30 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb0b08333cac8f921da6bd' style='color: black; font-weight: bold;'>Galaxy A30</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a30s, a30s",
+      "patterns": [
+        "I need to repaire galaxy a30s smartphone",
+        "need for parts for galaxy a30s mobile",
+        "repairing Cost of galaxy a30s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb0b1a333cac8f921da6eb' style='color: black; font-weight: bold;'>Galaxy A30S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a31, a31",
+      "patterns": [
+        "I need to repaire galaxy a31 smartphone",
+        "need for parts for galaxy a31 mobile",
+        "repairing Cost of galaxy a31 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb0b2b333cac8f921da71b' style='color: black; font-weight: bold;'>Galaxy A31</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m10, m10",
+      "patterns": [
+        "I need to repaire galaxy m10 smartphone",
+        "need for parts for galaxy m10 mobile",
+        "repairing Cost of galaxy m10 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb11ec333cac8f921da9a2' style='color: black; font-weight: bold;'>Galaxy m10</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m20, m20",
+      "patterns": [
+        "I need to repaire galaxy m20 smartphone",
+        "need for parts for galaxy m20 mobile",
+        "repairing Cost of galaxy m20 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb11fb333cac8f921da9ac' style='color: black; font-weight: bold;'>Galaxy m20</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m30, m30",
+      "patterns": [
+        "I need to repaire galaxy m30 smartphone",
+        "need for parts for galaxy m30 mobile",
+        "repairing Cost of galaxy m30 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb120a333cac8f921da9b8' style='color: black; font-weight: bold;'>Galaxy M30</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m40, m40",
+      "patterns": [
+        "I need to repaire galaxy m40 smartphone",
+        "need for parts for galaxy m40 mobile",
+        "repairing Cost of galaxy m40 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb121d333cac8f921da9c4' style='color: black; font-weight: bold;'>Galaxy M40</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a50, m50",
+      "patterns": [
+        "I need to repaire galaxy a50 smartphone",
+        "need for parts for galaxy a50 mobile",
+        "repairing Cost of galaxy a50 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb1230333cac8f921da9d0'>Galaxy A50</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a50s, m50s",
+      "patterns": [
+        "I need to repaire galaxy a50s smartphone",
+        "need for parts for galaxy a50s mobile",
+        "repairing Cost of galaxy a50s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb1240333cac8f921da9dc' style='color: black; font-weight: bold;'>Galaxy A50S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a51, a51",
+      "patterns": [
+        "I need to repaire galaxy a51 smartphone",
+        "need for parts for galaxy a51 mobile",
+        "repairing Cost of galaxy a51 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='hhttps://sampurnakart.in/repair/issues/65cb1263333cac8f921da9e8' style='color: black; font-weight: bold;'>Galaxy A51</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a70, a70",
+      "patterns": [
+        "I need to repaire galaxy a70 smartphone",
+        "need for parts for galaxy a70 mobile",
+        "repairing Cost of galaxy a70 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb127a333cac8f921daac6' style='color: black; font-weight: bold;'>Galaxy A70</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a70s, a70s",
+      "patterns": [
+        "I need to repaire galaxy a70s smartphone",
+        "need for parts for galaxy a70s mobile",
+        "repairing Cost of galaxy a70s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb128b333cac8f921dab34' style='color: black; font-weight: bold;'>Galaxy A70S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a71, a71",
+      "patterns": [
+        "I need to repaire galaxy a71 smartphone",
+        "need for parts for galaxy a71 mobile",
+        "repairing Cost of galaxy a71 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65cb12a1333cac8f921dab54' style='color: black; font-weight: bold;'>Galaxy A71</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a01 core, a01 core",
+      "patterns": [
+        "I need to repaire galaxy a01 core smartphone",
+        "need for parts for galaxy a01 core mobile",
+        "repairing Cost of galaxy a01 core smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2cd5a2c80e64a6a6907e1' style='color: black; font-weight: bold;'>Galaxy A01 Core</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m01s, m01s",
+      "patterns": [
+        "I need to repaire galaxy m01s smartphone",
+        "need for parts for galaxy m01s mobile",
+        "repairing Cost of galaxy m01s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2cd9a2c80e64a6a6907ed' style='color: black; font-weight: bold;'>Galaxy M01S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m21s, m21s",
+      "patterns": [
+        "I need to repaire galaxy m21s smartphone",
+        "need for parts for galaxy m21s mobile",
+        "repairing Cost of galaxy m21s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2cdd92c80e64a6a6907f9' style='color: black; font-weight: bold;'>Galaxy M21S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z flip, z flip",
+      "patterns": [
+        "I need to repaire galaxy z flip smartphone",
+        "need for parts for galaxy z flip mobile",
+        "repairing Cost of galaxy z flip smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2ce212c80e64a6a690805' style='color: black; font-weight: bold;'>Galaxy Z Flip</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a12, a12",
+      "patterns": [
+        "I need to repaire galaxy a12 smartphone",
+        "need for parts for galaxy a12 mobile",
+        "repairing Cost of galaxy a12 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2ce5e2c80e64a6a690811' style='color: black; font-weight: bold;'>Galaxy A12</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a32, a32",
+      "patterns": [
+        "I need to repaire galaxy a32 smartphone",
+        "need for parts for galaxy a32 mobile",
+        "repairing Cost of galaxy a32 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2ce972c80e64a6a690820' style='color: black; font-weight: bold;'>Galaxy A32</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s21 5g, s21",
+      "patterns": [
+        "I need to repaire galaxy s21 5g smartphone",
+        "need for parts for galaxy s21 5g mobile",
+        "repairing Cost of galaxy s21 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2cf512c80e64a6a69082c' style='color: black; font-weight: bold;'>Galaxy S21 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s21 plus 5g, s21 plus",
+      "patterns": [
+        "I need to repaire galaxy s21 plus 5g smartphone",
+        "need for parts for galaxy s21 plus 5g mobile",
+        "repairing Cost of galaxy s21 plus 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d1c32c80e64a6a690838' style='color: black; font-weight: bold;'>Galaxy S21 Plus 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s21 ultra 5g, s21 ultra",
+      "patterns": [
+        "I need to repaire galaxy s21 ultra 5g smartphone",
+        "need for parts for galaxy s21 ultra 5g mobile",
+        "repairing Cost of galaxy s21 ultra 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d21f2c80e64a6a690844' style='color: black; font-weight: bold;'>Galaxy S21 Ultra 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m62, m62",
+      "patterns": [
+        "I need to repaire galaxy m62 smartphone",
+        "need for parts for galaxy m62 mobile",
+        "repairing Cost of galaxy m62 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d28a2c80e64a6a690850' style='color: black; font-weight: bold;'>Galaxy M62</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a32 4g, a32",
+      "patterns": [
+        "I need to repaire galaxy a32 4g smartphone",
+        "need for parts for galaxy a32 4g mobile",
+        "repairing Cost of galaxy a32 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d2e92c80e64a6a69085c' style='color: black; font-weight: bold;'>Galaxy A32 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a52 4g, a52",
+      "patterns": [
+        "I need to repaire galaxy a52 4g smartphone",
+        "need for parts for galaxy a52 4g mobile",
+        "repairing Cost of galaxy a52 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d3582c80e64a6a690868' style='color: black; font-weight: bold;'>Galaxy A52 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a52 5g",
+      "patterns": [
+        "I need to repaire galaxy a52 5g smartphone",
+        "need for parts for galaxy a52 5g mobile",
+        "repairing Cost of galaxy a52 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d3aa2c80e64a6a690874' style='color: black; font-weight: bold;'>Galaxy A52 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a72 4g, a72",
+      "patterns": [
+        "I need to repaire galaxy a72 4g smartphone",
+        "need for parts for galaxy a72 4g mobile",
+        "repairing Cost of galaxy a72 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d4242c80e64a6a690881' style='color: black; font-weight: bold;'>Galaxy A72 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f02s, f02s",
+      "patterns": [
+        "I need to repaire galaxy f02s smartphone",
+        "need for parts for galaxy f02s mobile",
+        "repairing Cost of galaxy f02s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d47d2c80e64a6a69088d' style='color: black; font-weight: bold;'>Galaxy F02S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f12, f12",
+      "patterns": [
+        "I need to repaire galaxy f12 smartphone",
+        "need for parts for galaxy f12 mobile",
+        "repairing Cost of galaxy f12 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d4b62c80e64a6a690899' style='color: black; font-weight: bold;'>Galaxy F12</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m42, m42",
+      "patterns": [
+        "I need to repaire galaxy m42 smartphone",
+        "need for parts for galaxy m42 mobile",
+        "repairing Cost of galaxy m42 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d4f22c80e64a6a6908a5' style='color: black; font-weight: bold;'>Galaxy M42</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a22, a22",
+      "patterns": [
+        "I need to repaire galaxy a22 5g smartphone",
+        "need for parts for galaxy a22 5g mobile",
+        "repairing Cost of galaxy a22 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d5292c80e64a6a6908b1' style='color: black; font-weight: bold;'>Galaxy A22 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a22 4g, a22 4g",
+      "patterns": [
+        "I need to repaire galaxy a22 4g smartphone",
+        "need for parts for galaxy a22 4g mobile",
+        "repairing Cost of galaxy a22 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d5632c80e64a6a6908bd' style='color: black; font-weight: bold;'>Galaxy A22 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m32, m32",
+      "patterns": [
+        "I need to repaire galaxy m32 smartphone",
+        "need for parts for galaxy m32 mobile",
+        "repairing Cost of galaxy m32 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d5a72c80e64a6a6908c9' style='color: black; font-weight: bold;'>Galaxy M32</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f22, f22",
+      "patterns": [
+        "I need to repaire galaxy f22 smartphone",
+        "need for parts for galaxy f22 mobile",
+        "repairing Cost of galaxy f22 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d5e82c80e64a6a6908d5' style='color: black; font-weight: bold;'>Galaxy F22</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z flip 3, z flip 3, flip 3",
+      "patterns": [
+        "I need to repaire galaxy z flip 3  smartphone",
+        "need for parts for galaxy z flip 3  mobile",
+        "repairing Cost of galaxy z flip 3  smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d63a2c80e64a6a6908e1' style='color: black; font-weight: bold;'>Galaxy Z Flip 3 </a>"
+      ]
+    },
+    {
+      "tag": "galaxy z fold 3, z fold 3, fold 3",
+      "patterns": [
+        "I need to repaire galaxy z fold 3 smartphone",
+        "need for parts for galaxy z fold 3 mobile",
+        "repairing Cost of galaxy z fold 3 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d6b32c80e64a6a6908ed' style='color: black; font-weight: bold;'>Galaxy Z Fold 3</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a52s, a52s",
+      "patterns": [
+        "I need to repaire galaxy a52s  smartphone",
+        "need for parts for galaxy a52s  mobile",
+        "repairing Cost of galaxy a52s  smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d7052c80e64a6a6908f9' style='color: black; font-weight: bold;'>Galaxy A52S </a>"
+      ]
+    },
+    {
+      "tag": "galaxy a03s, a03s",
+      "patterns": [
+        "I need to repaire galaxy a03s smartphone",
+        "need for parts for galaxy a03s mobile",
+        "repairing Cost of galaxy a03s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d74f2c80e64a6a690905' style='color: black; font-weight: bold;'>Galaxy A03SS</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m32 5g, m32",
+      "patterns": [
+        "I need to repaire galaxy m32 5g smartphone",
+        "need for parts for galaxy m32 5g mobile",
+        "repairing Cost of galaxy m32 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d7e72c80e64a6a690911' style='color: black; font-weight: bold;'>Galaxy M32 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m22, m22",
+      "patterns": [
+        "I need to repaire galaxy m22 smartphone",
+        "need for parts for galaxy m22 mobile",
+        "repairing Cost of galaxy m22 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d8862c80e64a6a69091d' style='color: black; font-weight: bold;'>Galaxy M22</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a03 core, a03 core",
+      "patterns": [
+        "I need to repaire galaxy a03 core smartphone",
+        "need for parts for galaxy a03 core mobile",
+        "repairing Cost of galaxy a03 core smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d9202c80e64a6a69093a'>Galaxy A03 Core</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a03, a03",
+      "patterns": [
+        "I need to repaire galaxy a03  smartphone",
+        "need for parts for galaxy a03  mobile",
+        "repairing Cost of galaxy a03  smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d9702c80e64a6a690946' style='color: black; font-weight: bold;'>Galaxy A03</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a13, a13",
+      "patterns": [
+        "I need to repaire galaxy a13 smartphone",
+        "need for parts for galaxy a13 mobile",
+        "repairing Cost of galaxy a13 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d9b22c80e64a6a69095a' style='color: black; font-weight: bold;'>Galaxy A13</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s21 fe, s21 fe",
+      "patterns": [
+        "I need to repaire galaxy s21 fe smartphone",
+        "need for parts for galaxy s21 fe mobile",
+        "repairing Cost of galaxy s21 fe smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2da172c80e64a6a69096f' style='color: black; font-weight: bold;'>Galaxy S21 FE</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s22, s22",
+      "patterns": [
+        "I need to repaire galaxy s22 smartphone",
+        "need for parts for galaxy s22 mobile",
+        "repairing Cost of galaxy s22 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2dac32c80e64a6a69097b' style='color: black; font-weight: bold;'>Galaxy S22</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s22 plus, s22 plus",
+      "patterns": [
+        "I need to repaire galaxy s22 plus smartphone",
+        "need for parts for galaxy s22 plus mobile",
+        "repairing Cost of galaxy s22 plus smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2db052c80e64a6a690989' style='color: black; font-weight: bold;'>Galaxy S22 Plus</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s22 ultra, s22 ultra",
+      "patterns": [
+        "I need to repaire galaxy s22 ultra smartphone",
+        "need for parts for galaxy s22 ultra mobile",
+        "repairing Cost of galaxy s22 ultra smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2db432c80e64a6a690996' style='color: black; font-weight: bold;'>Galaxy S22 Ultra</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a23, a23",
+      "patterns": [
+        "I need to repaire galaxy a23 smartphone",
+        "need for parts for galaxy a23 mobile",
+        "repairing Cost of galaxy a23 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2dbab2c80e64a6a6909a2' style='color: black; font-weight: bold;'>Galaxy A23</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m23, m23",
+      "patterns": [
+        "I need to repaire galaxy m23 smartphone",
+        "need for parts for galaxy m23 mobile",
+        "repairing Cost of galaxy m23 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2dbe92c80e64a6a6909ae' style='color: black; font-weight: bold;'>Galaxy M23</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m33, m33",
+      "patterns": [
+        "I need to repaire galaxy m33 smartphone",
+        "need for parts for galaxy m33 mobile",
+        "repairing Cost of galaxy m33 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2dc272c80e64a6a6909b6' style='color: black; font-weight: bold;'>Galaxy M33</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a33 5g, a33",
+      "patterns": [
+        "I need to repaire galaxy a33 5g smartphone",
+        "need for parts for galaxy a33 5g mobile",
+        "repairing Cost of galaxy a33 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2de1d2c80e64a6a6909e0' style='color: black; font-weight: bold;'>Galaxy A33 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m53 5g, m53",
+      "patterns": [
+        "I need to repaire galaxy m53 5g smartphone",
+        "need for parts for galaxy m53 5g mobile",
+        "repairing Cost of galaxy m53 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fc702c80e64a6a690efa' style='color: black; font-weight: bold;'>Galaxy M53 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m73 5g, m73",
+      "patterns": [
+        "I need to repaire galaxy m73 5g smartphone",
+        "need for parts for galaxy m73 5g mobile",
+        "repairing Cost of galaxy m73 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fcb12c80e64a6a690f02' style='color: black; font-weight: bold;'>Galaxy M73 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s20 fe, s20 fe",
+      "patterns": [
+        "I need to repaire galaxy s20 fe smartphone",
+        "need for parts for galaxy s20 fe mobile",
+        "repairing Cost of galaxy s20 fe smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fd122c80e64a6a690f1d' style='color: black; font-weight: bold;'>Galaxy S20 FE</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m53 5g, m53",
+      "patterns": [
+        "I need to repaire galaxy m53 5g smartphone",
+        "need for parts for galaxy m53 5g mobile",
+        "repairing Cost of galaxy m53 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fd4f2c80e64a6a69105c' style='color: black; font-weight: bold;'>Galaxy M53 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m13, m13",
+      "patterns": [
+        "I need to repaire galaxy m13 smartphone",
+        "need for parts for galaxy m13 mobile",
+        "repairing Cost of galaxy m13 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fd9c2c80e64a6a6910f9' style='color: black; font-weight: bold;'>Galaxy M13</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f13, f13",
+      "patterns": [
+        "I need to repaire galaxy f13 smartphone",
+        "need for parts for galaxy f13 mobile",
+        "repairing Cost of galaxy f13 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2fee62c80e64a6a691114' style='color: black; font-weight: bold;'>Galaxy F13</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m13 5g, m13 ",
+      "patterns": [
+        "I need to repaire galaxy m13 5g smartphone",
+        "need for parts for galaxy m13 5g mobile",
+        "repairing Cost of galaxy m13 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e302912c80e64a6a691199' style='color: black; font-weight: bold;'>Galaxy M13 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a23 5g, a23 5g",
+      "patterns": [
+        "I need to repaire galaxy a23 5g smartphone",
+        "need for parts for galaxy a23 5g mobile",
+        "repairing Cost of galaxy a23 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e302dc2c80e64a6a6911ad' style='color: black; font-weight: bold;'>Galaxy A23 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z flip 4, z flip 4, flip 4 ",
+      "patterns": [
+        "I need to repaire galaxy z flip 4 smartphone",
+        "need for parts for galaxy z flip 4 mobile",
+        "repairing Cost of galaxy z flip 4 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e303f42c80e64a6a6911f4' style='color: black; font-weight: bold;'>Galaxy Z Flip 4</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z fold 4, z fold 4, fold 4",
+      "patterns": [
+        "I need to repaire galaxy z fold 4 smartphone",
+        "need for parts for galaxy z fold 4 mobile",
+        "repairing Cost of galaxy z fold 4 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3045d2c80e64a6a69120c' style='color: black; font-weight: bold;'>Galaxy Z Fold 4</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a04, a04",
+      "patterns": [
+        "I need to repaire galaxy a04 smartphone",
+        "need for parts for galaxy a04 mobile",
+        "repairing Cost of galaxy a04 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3049e2c80e64a6a691218' style='color: black; font-weight: bold;'>Galaxy A04</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a04s, a04s",
+      "patterns": [
+        "I need to repaire galaxy a04s smartphone",
+        "need for parts for galaxy a04s mobile",
+        "repairing Cost of galaxy a04s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e304d82c80e64a6a691230' style='color: black; font-weight: bold;'>Galaxy A04S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a04e, a04e",
+      "patterns": [
+        "I need to repaire galaxy a04e smartphone",
+        "need for parts for galaxy a04e mobile",
+        "repairing Cost of galaxy a04e smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e305292c80e64a6a69123c' style='color: black; font-weight: bold;'>Galaxy A04E</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a03s, a03s",
+      "patterns": [
+        "I need to repaire galaxy a03s smartphone",
+        "need for parts for galaxy a03s mobile",
+        "repairing Cost of galaxy a03s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d74f2c80e64a6a690905' style='color: black; font-weight: bold;'>Galaxy A03S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m04 , m04",
+      "patterns": [
+        "I need to repaire galaxy m04 smartphone",
+        "need for parts for galaxy m04 mobile",
+        "repairing Cost of galaxy m04 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3057c2c80e64a6a691254' style='color: black; font-weight: bold;'>Galaxy M04</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a14 5g, 5g",
+      "patterns": [
+        "I need to repaire galaxy a14 5g smartphone",
+        "need for parts for galaxy a14 5g mobile",
+        "repairing Cost of galaxy a14 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e305fb2c80e64a6a691278' style='color: black; font-weight: bold;'>Galaxy A14 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a14 4g, 4g",
+      "patterns": [
+        "I need to repaire galaxy a14 4g smartphone",
+        "need for parts for galaxy a14 4g mobile",
+        "repairing Cost of galaxy a14 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e306372c80e64a6a691294' style='color: black; font-weight: bold;'>Galaxy A14 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s23, s23",
+      "patterns": [
+        "I need to repaire galaxy s23 smartphone",
+        "need for parts for galaxy s23 mobile",
+        "repairing Cost of galaxy s23 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e306702c80e64a6a6912a0' style='color: black; font-weight: bold;'>Galaxy S23</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s23 plus, s23 plus",
+      "patterns": [
+        "I need to repaire galaxy s23 plus smartphone",
+        "need for parts for galaxy s23 plus mobile",
+        "repairing Cost of galaxy s23 plus smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e306ac2c80e64a6a6912b8' style='color: black; font-weight: bold;'>Galaxy S23 Plus</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s23 ultra, s23 ultra",
+      "patterns": [
+        "I need to repaire galaxy s23 ultra smartphone",
+        "need for parts for galaxy s23 ultra mobile",
+        "repairing Cost of galaxy s23 ultra smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e306e62c80e64a6a6912c4' style='color: black; font-weight: bold;'>Galaxy S23 Ultra</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a34 5g, a34",
+      "patterns": [
+        "I need to repaire galaxy a34 5g smartphone",
+        "need for parts for galaxy a34 5g mobile",
+        "repairing Cost of galaxy a34 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e307522c80e64a6a6912df' style='color: black; font-weight: bold;'>Galaxy A34 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a54, a54",
+      "patterns": [
+        "I need to repaire galaxy a54 smartphone",
+        "need for parts for galaxy a54 mobile",
+        "repairing Cost of galaxy a54 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e307982c80e64a6a6912f4' style='color: black; font-weight: bold;'>Galaxy a54</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a52s, a52s",
+      "patterns": [
+        "I need to repaire galaxy a52s smartphone",
+        "need for parts for galaxy a52s mobile",
+        "repairing Cost of galaxy a52s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e2d7052c80e64a6a6908f9' style='color: black; font-weight: bold;'>Galaxy A52S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m54, m54",
+      "patterns": [
+        "I need to repaire galaxy m54 smartphone",
+        "need for parts for galaxy m54 mobile",
+        "repairing Cost of galaxy m54 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e307d92c80e64a6a691310' style='color: black; font-weight: bold;'>Galaxy M54</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f14 5g. f14",
+      "patterns": [
+        "I need to repaire galaxy f14 5g smartphone",
+        "need for parts for galaxy f14 5g mobile",
+        "repairing Cost of galaxy f14 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e308342c80e64a6a69149e' style='color: black; font-weight: bold;'>Galaxy F14 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a24 4g, a24",
+      "patterns": [
+        "I need to repaire galaxy a24 4g smartphone",
+        "need for parts for galaxy a24 4g mobile",
+        "repairing Cost of galaxy a24 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3087a2c80e64a6a6914b6' style='color: black; font-weight: bold;'>Galaxy A24 4G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f54 5g, f54",
+      "patterns": [
+        "I need to repaire galaxy f54 5g smartphone",
+        "need for parts for galaxy f54 5g mobile",
+        "repairing Cost of galaxy f54 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e308f02c80e64a6a6914ce' style='color: black; font-weight: bold;'>Galaxy F54 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f04, f04",
+      "patterns": [
+        "I need to repaire galaxy f04 smartphone",
+        "need for parts for galaxy f04 mobile",
+        "repairing Cost of galaxy f04 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e305bd2c80e64a6a69126c' style='color: black; font-weight: bold;'>Galaxy F04 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z fild 5, z flip 5",
+      "patterns": [
+        "I need to repaire galaxy z fild 5 smartphone",
+        "need for parts for galaxy z flip 5 mobile",
+        "repairing Cost of galaxy z flip 5 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e30cb72c80e64a6a69150b' style='color: black; font-weight: bold;'>Galaxy Z Flip 5</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z fold 5, z fold 5",
+      "patterns": [
+        "I need to repaire galaxy z fold 5 smartphone",
+        "need for parts for galaxy z fold 5 mobile",
+        "repairing Cost of galaxy z fold 5 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e30cf72c80e64a6a691517' style='color: black; font-weight: bold;'>Galaxy Z Fold 5</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f34,f34",
+      "patterns": [
+        "I need to repaire galaxy f34 smartphone",
+        "need for parts for galaxy f34 mobile",
+        "repairing Cost of galaxy f34 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e30d3c2c80e64a6a691523' style='color: black; font-weight: bold;'>Galaxy F34</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a05, a05",
+      "patterns": [
+        "I need to repaire galaxy a05 smartphone",
+        "need for parts for galaxy a05 mobile",
+        "repairing Cost of galaxy a05 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e30fad2c80e64a6a691560' style='color: black; font-weight: bold;'>Galaxy A05</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a05s, a05s",
+      "patterns": [
+        "I need to repaire galaxy a05s smartphone",
+        "need for parts for galaxy a05s mobile",
+        "repairing Cost of galaxy a05s smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e30fee2c80e64a6a691574' style='color: black; font-weight: bold;'>Galaxy A05S</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s23 fe, s23 fe",
+      "patterns": [
+        "I need to repaire galaxy s23 fe smartphone",
+        "need for parts for galaxy s23 fe mobile",
+        "repairing Cost of galaxy s23 fe smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3102e2c80e64a6a691586' style='color: black; font-weight: bold;'>Galaxy S23 FE</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a15 5g, a15",
+      "patterns": [
+        "I need to repaire galaxy a15 5g smartphone",
+        "need for parts for galaxy a15 5g mobile",
+        "repairing Cost of galaxy a15 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e310702c80e64a6a6915a2' style='color: black; font-weight: bold;'>Galaxy A15 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a25 5g, a25",
+      "patterns": [
+        "I need to repaire galaxy a25 5g smartphone",
+        "need for parts for galaxy a25 5g mobile",
+        "repairing Cost of galaxy a25 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e310c62c80e64a6a6915aa' style='color: black; font-weight: bold;'>Galaxy A25 5G</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s24, s24 ultra",
+      "patterns": [
+        "I need to repaire galaxy s24 smartphone",
+        "need for parts for galaxy s24 mobile",
+        "repairing Cost of galaxy s24 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e310fb2c80e64a6a6915c2' style='color: black; font-weight: bold;'>Galaxy S24</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s24 plus, s24 ultra",
+      "patterns": [
+        "I need to repaire galaxy s24 plus smartphone",
+        "need for parts for galaxy s24 plus mobile",
+        "repairing Cost of galaxy s24 plus smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e311322c80e64a6a6915da' style='color: black; font-weight: bold;'>Galaxy S24 plus</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s24 ultra, s24 ultra",
+      "patterns": [
+        "I need to repaire galaxy s24 ultra smartphone",
+        "need for parts for galaxy s24 ultra mobile",
+        "repairing Cost of galaxy s24 ultra smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/65e3116d2c80e64a6a6915e8' style='color: black; font-weight: bold;'>Galaxy S24 ultra</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f15",
+      "patterns": [
+        "I need to repaire galaxy f15 smartphone",
+        "need for parts for galaxy f15 mobile",
+        "repairing Cost of galaxy f15 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713cc1b9d1c72bb530c143' style='color: black; font-weight: bold;'>Galaxy F15</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m14 4g",
+      "patterns": [
+        "I need to repaire galaxy m14 4g smartphone",
+        "need for parts for galaxy m14 4g mobile",
+        "repairing Cost of galaxy m14 4g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713d5fb9d1c72bb530c196' style='color: black; font-weight: bold;'>Galaxy M14 4g</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m15",
+      "patterns": [
+        "I need to repaire galaxy m15 smartphone",
+        "need for parts for galaxy m15 mobile",
+        "repairing Cost of galaxy m15 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713e67b9d1c72bb530c1bc' style='color: black; font-weight: bold;'>Galaxy M15</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a35",
+      "patterns": [
+        "I need to repaire galaxy a35 smartphone",
+        "need for parts for galaxy a35 mobile",
+        "repairing Cost of galaxy a35 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713ef8b9d1c72bb530c1c9' style='color: black; font-weight: bold;'>Galaxy A35</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a55",
+      "patterns": [
+        "I need to repaire galaxy a55 smartphone",
+        "need for parts for galaxy a55 mobile",
+        "repairing Cost of galaxy a55 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713f73b9d1c72bb530c1d5' style='color: black; font-weight: bold;'>Galaxy A55</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m55",
+      "patterns": [
+        "I need to repaire galaxy m55 smartphone",
+        "need for parts for galaxy m55 mobile",
+        "repairing Cost of galaxy m55 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66713fd4b9d1c72bb530c1e1' style='color: black; font-weight: bold;'>Glaxy M55</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f55",
+      "patterns": [
+        "I need to repaire galaxy f55 smartphone",
+        "need for parts for galaxy f55 mobile",
+        "repairing Cost of galaxy f55 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66714046b9d1c72bb530c20d' style='color: black; font-weight: bold;'>Galaxy F55</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z flip6",
+      "patterns": [
+        "I need to repaire galaxy z flip6 smartphone",
+        "need for parts for galaxy z flip6 mobile",
+        "repairing Cost of galaxy z flip6 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f51465f2164b3c65da7d76' style='color: black; font-weight: bold;'>Galaxy Z Flip6</a>"
+      ]
+    },
+    {
+      "tag": "galaxy z fold 6",
+      "patterns": [
+        "I need to repaire galaxy z fold 6 smartphone",
+        "need for parts for galaxy z fold 6 mobile",
+        "repairing Cost of galaxy z fold 6 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f51509f2164b3c65da7dba' style='color: black; font-weight: bold;'>Galaxy Z Fold 6</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m31",
+      "patterns": [
+        "I need to repaire galaxy m31 smartphone",
+        "need for parts for galaxy m31 mobile",
+        "repairing Cost of galaxy m31 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f8013c5e4798a9c430d6b8' style='color: black; font-weight: bold;'>Galaxy M31</a>"
+      ]
+    },
+    {
+      "tag": "galaxy a06",
+      "patterns": [
+        "I need to repaire galaxy a06 smartphone",
+        "need for parts for galaxy a06 mobile",
+        "repairing Cost of galaxy a06 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f92da55e4798a9c430f323' style='color: black; font-weight: bold;'>Galaxy A06</a>"
+      ]
+    },
+    {
+      "tag": "galaxy f05v",
+      "patterns": [
+        "I need to repaire galaxy f05v smartphone",
+        "need for parts for galaxy f05v mobile",
+        "repairing Cost of galaxy f05v smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f92e3d5e4798a9c430f35c' style='color: black; font-weight: bold;'>Galaxy F05V</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m05",
+      "patterns": [
+        "I need to repaire galaxy m05 smartphone",
+        "need for parts for galaxy m05 mobile",
+        "repairing Cost of galaxy m05 smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f92ebc5e4798a9c430f368' style='color: black; font-weight: bold;'>Galaxy M05</a>"
+      ]
+    },
+    {
+      "tag": "galaxy s24 fe",
+      "patterns": [
+        "I need to repaire galaxy s24 fe smartphone",
+        "need for parts for galaxy s24 fe mobile",
+        "repairing Cost of galaxy s24 fe smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/66f92f345e4798a9c430f374' style='color: black; font-weight: bold;'>Galaxy S24 FE</a>"
+      ]
+    },
+    {
+      "tag": "galaxy m34 5g",
+      "patterns": [
+        "I need to repaire galaxy m34 5g smartphone",
+        "need for parts for galaxy m34 5g mobile",
+        "repairing Cost of galaxy m34 5g smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/issues/670e14445e4798a9c4330163' style='color: black; font-weight: bold;'>Galaxy M34 5G</a>"
+      ]
+    },
+    {
+      "tag": "tecno",
+      "patterns": [
+        "I need to repaire tecno smartphone",
+        "need for parts for tecno mobile",
+        "repairing Cost of tecno smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c5c0e1372328de86ce1c2c' style='color: black; font-weight: bold;'>Tecno</a>"
+      ]
+    },
+    {
+      "tag": "motorola",
+      "patterns": [
+        "I need to repaire motorola smartphone",
+        "need for parts for motorola mobile",
+        "repairing Cost of motorola smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c5c077372328de86ce1c22' style='color: black; font-weight: bold;'>Motorola</a>"
+      ]
+    },
+    {
+      "tag": "oppo",
+      "patterns": [
+        "I need to repaire oppo smartphone",
+        "need for parts for oppo mobile",
+        "repairing Cost of oppo smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c319ef0f4ad1db82b00edc' style='color: black; font-weight: bold;'>Oppo</a>"
+      ]
+    },
+    {
+      "tag": "vivo",
+      "patterns": [
+        "I need to repaire vivo smartphone",
+        "need for parts for vivo mobile",
+        "repairing Cost of vivo smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c31a010f4ad1db82b00ee1' style='color: black; font-weight: bold;'>Vivo</a>"
+      ]
+    },
+    {
+      "tag": "mi",
+      "patterns": [
+        "I need to repaire mi smartphone",
+        "need for parts for mi mobile",
+        "repairing Cost of mi smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c31a1c0f4ad1db82b00ee6' style='color: black; font-weight: bold;'>Mi</a>"
+      ]
+    },
+    {
+      "tag": "realme",
+      "patterns": [
+        "I need to repaire realme smartphone",
+        "need for parts for realme mobile",
+        "repairing Cost of realme smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='hhttps://sampurnakart.in/repair/models/65c31a350f4ad1db82b00eeb' style='color: black; font-weight: bold;'>Realme</a>"
+      ]
+    },
+    {
+      "tag": "oneplus",
+      "patterns": [
+        "I need to repaire oneplus smartphone",
+        "need for parts for oneplus mobile",
+        "repairing Cost of oneplus smartphone"
+      ],
+      "responses": [
+        "Please click on the Link given.<a href='https://sampurnakart.in/repair/models/65c5bfbb372328de86ce1c08' style='color: black; font-weight: bold;'>OnePlus</a>"
+      ]
+    },
+    {
+      "tag": "laptop",
+      "patterns": [
+        "I need to repaire laptop ",
+        "need for parts for laptop",
+        "repairing Cost of laptop "
+      ],
+      "responses": [
+        "Please Select your Laptop Company.<a href='https://sampurnakart.in/repair/65c5e416372328de86ce2718' style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "laptop, repair",
+      "patterns": [
+        "do you repair all laptop brands at sampurnakart",
+        "what laptops do you repair",
+        "brands of laptop do you repair",
+        "all laptop brands do you repair",
+        "name of all laptop brands that you repair"
+      ],
+      "responses": [
+        "Yes, we repair all major laptop brands, including Dell, HP, Lenovo, Apple (MacBook), Acer, Asus, MSI, and others."
+      ]
+    },
+    {
+      "tag": "laptop, book, booking",
+      "patterns": [
+        "how can i book a laptop repair service with sampurnakart",
+        "book my laptop repair service",
+        "laptop repair booking"
+      ],
+      "responses": [
+        "You can easily book a laptop repair service through the Sampurnakart app or website.Simply select your laptop brand and model, describe the issue, and choose a convenient services option"
+      ]
+    },
+    {
+      "tag": "laptop, vist",
+      "patterns": [
+        "can i get my laptop repaired online or do i have to vist the shop",
+        "do i have to vist the shop to repair my laptop",
+        "pickup dropoff service avaliable" 
+      ],
+      "responses": [
+        "you don't need to visit the shop.You can book an online repair service, and we'll either send a technician to your doorstep or offer pickup/dropoff services"
+      ]
+    },
+    {
+      "tag": "macbook",
+      "patterns": [
+        "I need to repaire macbook ",
+        "need for parts for macbook",
+        "repairing Cost of macbook "
+      ],
+      "responses": [
+        "Please Select your MacBook Model.<a href='https://sampurnakart.in/repair/models/65c5e455372328de86ce271d'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "hp",
+      "patterns": [
+        "I need to repaire hp laptop",
+        "need for parts for hp laptop",
+        "repairing Cost of hp laptop"
+      ],
+      "responses": [
+        "Please Select your Hp Laptop Model.<a href='https://sampurnakart.in/repair/models/65e9ab8a2c80e64a6a6a1872'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "dell",
+      "patterns": [
+        "I need to repaire dell laptop",
+        "need for parts for dell laptop",
+        "repairing Cost of dell laptop"
+      ],
+      "responses": [
+        "Please Select your Dell Laptop Model.<a href='https://sampurnakart.in/repair/models/65e9abd32c80e64a6a6a1880'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "lenovo",
+      "patterns": [
+        "I need to repaire lenovo laptop",
+        "need for parts for lenovo laptop",
+        "repairing Cost of lenovo laptop"
+      ],
+      "responses": [
+        "Please Select your Lenovo Laptop Model.<a href='https://sampurnakart.in/repair/models/65e9ac342c80e64a6a6a188f'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "asus",
+      "patterns": [
+        "I need to repaire asus laptop",
+        "need for parts for asus laptop",
+        "repairing Cost of asus laptop"
+      ],
+      "responses": [
+        "Please Select your Asus Laptop Model.<a href='https://sampurnakart.in/repair/models/65e9ac8c2c80e64a6a6a1899'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "acer",
+      "patterns": [
+        "I need to repaire acer laptop",
+        "need for parts for acer laptop",
+        "repairing Cost of acer laptop"
+      ],
+      "responses": [
+        "Please Select your Acer Laptop Model.<a href='https://sampurnakart.in/repair/models/65e9aced2c80e64a6a6a18a7'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "samsung laptop",
+      "patterns": [
+        "I need to repaire samsung laptop",
+        "need for parts for samsung laptop",
+        "repairing Cost of samsung laptop"
+      ],
+      "responses": [
+        "Please Select your Samsung Laptop Model.<a href='https://sampurnakart.in/repair/models/66ebd56bf2164b3c65d8dec4'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "tablet, tab",
+      "patterns": [
+        "I need to repaire tablet ",
+        "need for parts for tablet",
+        "repairing Cost of tablet"
+      ],
+      "responses": [
+        "Please Select your Tablet Company.<a href='https://sampurnakart.in/repair/65ded4742c80e64a6a685273'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "ipad",
+      "patterns": [
+        "i need to repaire apple ipad",
+        "need for parts for apple ipad",
+        "repairing Cost of apple ipad"
+      ],
+      "responses": [
+        "Please Select your Apple Ipad.<a href='https://sampurnakart.in/repair/models/65e959122c80e64a6a69f243'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "samsung tab",
+      "patterns": [
+        "I need to repaire samsung tablet ",
+        "need for parts for samsung tablet",
+        "repairing Cost of samsung tablet"
+      ],
+      "responses": [
+        "Please Select your Samsung Tablet.<a href='https://sampurnakart.in/repair/models/65e959382c80e64a6a69f24c'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "oppo tab",
+      "patterns": [
+        "I need to repaire oppo tablet ",
+        "need for parts for oppo tablet",
+        "repairing Cost of oppo tablet"
+      ],
+      "responses": [
+        "Please Select your Oppo Tablet.<a href='https://sampurnakart.in/repair/models/65e959752c80e64a6a69f255'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "mi tab",
+      "patterns": [
+        "I need to repaire mi tablet ",
+        "need for parts for mi tablet",
+        "repairing Cost of mi tablet"
+      ],
+      "responses": [
+        "Please Select your Oppo Tablet.<a href='https://sampurnakart.in/repair/models/65e959962c80e64a6a69f25e'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "realme tab",
+      "patterns": [
+        "I need to repaire realme tablet ",
+        "need for parts for realme tablet",
+        "repairing Cost of realme tablet"
+      ],
+      "responses": [
+        "Please Select your Realme Tablet.<a href='https://sampurnakart.in/repair/models/65e959b72c80e64a6a69f269'style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "nokia tab",
+      "patterns": [
+        "I need to repaire nokia tablet ",
+        "need for parts for nokia tablet",
+        "repairing Cost of nokia tablet"
+      ],
+      "responses": [
+        "Please Select your Nokia Tablet.<a href='https://sampurnakart.in/repair/models/65e959fe2c80e64a6a69f272' style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "oneplus tab",
+      "patterns": [
+        "I need to repaire oneplus tablet ",
+        "need for parts for oneplus tablet",
+        "repairing Cost of oneplus tablet"
+      ],
+      "responses": [
+        "Please Select your Oneplus Tablet.<a href='https://sampurnakart.in/repair/models/65e95a302c80e64a6a69f27f' style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "huawei tab",
+      "patterns": [
+        "I need to repaire huawei tablet ",
+        "need for parts for huawei tablet",
+        "repairing Cost of huawei tablet"
+      ],
+      "responses": [
+        "Please Select your Huawei Tablet.<a href='https://sampurnakart.in/repair/models/65e95a5b2c80e64a6a69f28e' style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "I need to book a repiar",
+        "repair booking",
+        "booking cost for my device"
+      ],
+      "responses": [
+        "Select the repair you want to book.<a href='https://sampurnakart.in/repair' style='color: black; font-weight: bold;'>Click Here</a>"
+      ]
+    },
+    {  
+      "tag": "app, website",
+      "patterns": [
+      "how can i book a mobile or laptop repair through the sampurnakart app",
+      "book my repair through the app",
+      "book my repair through the website"
+      ],
+      "responses": [
+        "To book a repair, download the Sampurnakart app, create an accout (or login), select the device you need repaired, describe the issue and choose a service option(doorstep repair or pickup/dropoff)."
+      ]
+    },
+    {
+      "tag": "schedule",
+      "patterns": [
+        "can i schedule my repair online through your website"
+      ],
+      "responses": [
+        "Yes, you can schedule a repair online through the Sampurnakart website.Simply follow the same stpes as on the app: choose your device describe the issue and select a service time"
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": [
+        "do i need an account to book a repair via Sampurnakart  app or website"
+      ],
+      "responses": [
+        "while creating an account is optional, it's recommended for faster booking, easy tracking of repair status and managing your future booking. You can also book as a guest."
+      ]
+    },
+    {
+      "tag": "promo, discount",
+      "patterns": [
+        "how do i apply a promo code or discount while booking a repair online"
+      ],
+      "responses": [
+        "You can apply a promo code or discount at the checkout stage.Enter the code in the provided field to avail of any offers."
+      ]
+    },
+    {
+      "tag": "slot",
+      "patterns": [
+        "can i choose a repair time slot while booking online"
+      ],
+      "responses": [
+        "Yes, you can select a time slot that works best for you while booking your repair online, either via the website or the app"
+      ]
+    },
+    {
+      "tag": "payment, safe",
+      "patterns": [
+        "is it safe to make payments for repair via your website or app"
+      ],
+      "responses": [
+        "Yes, we use secure payment gateway to ensure that all transactions are encrypted and safe.You can pay with credit/debit cards, or other secure methods."
+      ]
+    },
+    {
+      "tag": "feedback,rating",
+      "patterns": [
+        "how do i provide feedback about the repair service i received"
+      ],
+      "responses": [
+        "You can provide feedback directly through the sampurnakart app or website.We value your feedback and use it to improve our services"
+      ]
+    },
+    {
+      "tag": "chat",
+      "patterns": [
+        "do you have a live chat option for customers support"
+      ],
+      "responses": [
+        "Yes, we have a live chat feature on our app and website where you can get real-time assistance from out support team"
+      ]
+    }
+  ]
+}
